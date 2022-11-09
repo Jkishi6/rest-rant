@@ -7,10 +7,13 @@ function error404 () {
           <main>
               <h1>404: PAGE NOT FOUND</h1>
               <p>Oops, sorry, we can't find this page!</p>
-              <img src="/images/404error.png" alt="404 error photo" width="450"/>
-          </main>
+            <div>
+                <img src="/images/404error.png" alt="404:Page not Found"/>
+            </div>
+            </main>
       </Def>
     )
   }
+  
 
 module.exports = error404
